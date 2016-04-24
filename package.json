@@ -1,0 +1,38 @@
+{
+  "name": "fork-proxy",
+  "version": "0.0.0",
+  "description": "Proxy a single incomming TCP connection to multiple remote TCP servers",
+  "main": "index.js",
+  "bin": "bin.js",
+  "dependencies": {
+    "multi-write-stream": "^2.0.1",
+    "chalk": "^1.1.3",
+    "single-line-log": "^1.1.1"
+  },
+  "devDependencies": {
+    "after-all": "^2.0.2",
+    "standard": "^6.0.8"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/fork-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "tcp",
+    "multiple",
+    "multi",
+    "fork",
+    "split",
+    "duplicate"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/fork-proxy/issues"
+  },
+  "homepage": "https://github.com/watson/fork-proxy#readme"
+}
