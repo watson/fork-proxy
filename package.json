@@ -1,6 +1,6 @@
 {
   "name": "fork-proxy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Proxy a single incomming TCP connection to multiple remote TCP servers",
   "main": "index.js",
   "bin": "bin.js",
@@ -35,5 +35,9 @@
   "bugs": {
     "url": "https://github.com/watson/fork-proxy/issues"
   },
-  "homepage": "https://github.com/watson/fork-proxy#readme"
+  "homepage": "https://github.com/watson/fork-proxy#readme",
+  "coordinates": [
+    55.6469226,
+    12.5508618
+  ]
 }
