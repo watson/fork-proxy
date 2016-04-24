@@ -11,10 +11,10 @@ Can be used both from the command line and programmatically.
 ## Command Line Usage
 
 ```
-tcp-proxy-to port [forward_host:]forward_port...
+fork-proxy port [forward_host:]forward_port...
 ```
 
-The `tcp-proxy-to` command takes the following arguments:
+The `fork-proxy` command takes the following arguments:
 
 - `port` - The port that it should listen on
 - `forwards` - a list of `host:port` combinations to forward TCP traffic
@@ -26,7 +26,7 @@ client. Responses from the remaining forward targets will be ignored.
 Example:
 
 ```
-$ tcp-proxy-to 3000 example.com:80 example.org:80
+$ fork-proxy 3000 example.com:80 example.org:80
 ```
 
 ## Programmatic Usage
